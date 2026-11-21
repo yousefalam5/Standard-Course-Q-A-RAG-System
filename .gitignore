@@ -1,0 +1,32 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+.venv*/
+venv/
+ENV/
+env/
+
+# Vector database storage & model checkpoints (generated on first run)
+data/chroma_db/
+*.pt
+*.bin
+*.onnx
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Streamlit local settings & secrets
+.streamlit/secrets.toml
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
